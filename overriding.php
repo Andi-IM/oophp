@@ -1,5 +1,7 @@
 <?php 
-
+#8 Overriding
+// Istilah membuat method di kelas child yang memiliki 
+// nama yang nama dengan method di kelas Parent
 class Produk {
     public $judul, 
            $creator,
@@ -38,6 +40,7 @@ class Komik extends Produk {
     public function __construct($judul = "judul",
     $creator = "creator", $penerbit = "penerbit", $harga = 0, $jmlHalaman)
     {
+        // mengambil konstruktor dari kelas Produk
         parent::__construct($judul = "judul",
         $creator = "creator", $penerbit = "penerbit", $harga = 0);
         $this->jmlHalaman = $jmlHalaman;
@@ -57,6 +60,7 @@ class Game extends Produk {
     public function __construct($judul = "judul",
     $creator = "creator", $penerbit = "penerbit", $harga = 0, $waktuMain)
     {
+        // mengambil konstruktor dari kelas Produk
         parent::__construct($judul = "judul",
         $creator = "creator", $penerbit = "penerbit", $harga = 0);
         $this->waktuMain = $waktuMain;

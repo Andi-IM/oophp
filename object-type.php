@@ -1,4 +1,8 @@
 <?php 
+#5 Object Type
+// Tipe data pada PHP
+// ada primitif dan bentukan seperti array
+// Object juga bisa digunakan sebagai tipe data
 
 class Produk {
     public $judul, 
@@ -25,7 +29,7 @@ class Produk {
 }
 
 class CetakInfoProduk{
-    public function cetak(Produk $produk){
+    public function cetak(Produk $produk){ // Menjadikan Produk sebagai tipe data
         $str = "{$produk->judul} | {$produk->getlabel()}  (Rp. {$produk->harga})";
         return $str;
     }

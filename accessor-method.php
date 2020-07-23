@@ -1,4 +1,5 @@
 <?php 
+#10 Setter dan Getter
 
 // Visibility
 // Konsep yang digunakan untuk mengatur akses dari properti
@@ -18,6 +19,10 @@
 // visibility menentukan kebutuhan yang jelas
 // memberikan kendali untuk menghindari 'bug'
 
+# Penggunaan Getter dan setter
+// Untuk menghindari penggunaan properti dengan visibility public
+// cenderung menggunakan protected dan private
+// berupa method yang dapat membaca (Getter) dan mengubah isinya (Setter)
 
 class Produk {
     private $judul, 

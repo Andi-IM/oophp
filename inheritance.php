@@ -1,5 +1,31 @@
 <?php 
+#6 Inheritance / Pewarisan
+// Menciptakan hierarki antar kelas (Parent & Child)
+// Child Class mewarisi semua properti dan method yang dimiliki oleh parent-nya (yang visible)
+// Child Class mengembangkan (extends) fungsionalitas parent-nya
 
+# Class Mobil
+    # Properti
+    // - Nama
+    // - Merk
+    // - Warna
+    // - kecepatanMaksimal
+    // - jumlahPenumpang
+
+    # Method
+    // - tambahKecepatan()
+    // - kurangiKecepatan()
+    // - gantiTransmisi()
+    // - belokKiri()
+    // - belokKanan()
+
+# Class MobilSport yang mewarisi kelas Mobil
+    # Properti
+    // Turbo
+    # Method
+    // jalankanTurbo()
+
+# Penggunaan Inheritance
 class Produk {
     public $judul, 
            $creator,
@@ -36,7 +62,9 @@ class Produk {
     }
 }
 
-class Komik extends Produk {
+// membuat kelas Komik yang mewarisi kelas Produk
+class Komik extends Produk 
+{ 
     public function getInfoProduk()
     {
         $str = "Komik : {$this->judul} | {$this->getLabel()} (Rp. {$this->harga}) - {$this->jmlHalaman} Halaman.";
@@ -44,6 +72,7 @@ class Komik extends Produk {
     }
 }
 
+// membuat kelas Game yang mewarisi kelas Produk
 class Game extends Produk {
     public function getInfoProduk()
     {

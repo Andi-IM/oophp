@@ -1,5 +1,5 @@
 <?php 
-# Abstract Class
+#13 Abstract Class
 // - Kelas yang tidak dapat di-instansiasi (tidak dapat dibentuk objeknya)
 // - disebut kelas 'abstrak'
 // - Mendefinisikan interface untuk kelas lain yang menjadi turunannya

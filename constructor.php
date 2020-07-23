@@ -1,4 +1,7 @@
 <?php 
+#4 Constructor
+// Sebuah method yang khusus yang ada di dalam sebuah kelas
+// method yang dijalankan ketika sebuah kelas di instansiasi / dibuat object
 
 // jualan produk
 // Komik

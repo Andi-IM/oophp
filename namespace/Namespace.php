@@ -1,6 +1,6 @@
 <?php namespace App;
 
-# Namespace
+#17 Namespace
 // sebuah cara untuk mengelompokkan program ke dalam sebuah package tersendiri
 // dikenal sebagai teknik encapsulation
 

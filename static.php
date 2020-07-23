@@ -1,5 +1,5 @@
 <?php 
-// Static Keyword
+#11 Static Keyword
 // Membert terikat dengan class, bukan dengan object
 // Nilai Static akan selalu tetap (statis) meskipun objek di-instansiasi berkali-kali.
 // dengan ini dapat membuat kode menjadi 'Procedural'

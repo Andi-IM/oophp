@@ -1,6 +1,6 @@
 <?php 
 
-// Visibility
+#9 Visibility
 // Konsep yang digunakan untuk mengatur akses dari properti
 // dan method pada sebuah objek
 // Keyword visibility : public, protected, dan private.

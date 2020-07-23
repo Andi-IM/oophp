@@ -1,6 +1,6 @@
 <?php 
 
-#Interface
+#15 Interface
 // Adalah KELAS ABSTRAK yang tidak memiliki implementasi
 // MURNI merupakan template untuk kelas turunannya
 // TIDAK BOLEH MEMILIKI PROPERTI, hanya methodnya saja

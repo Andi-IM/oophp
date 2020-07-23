@@ -1,4 +1,5 @@
-<?php 
+<?php
+#12 Constant 
 // Constanta adalah tipe data yang bernilai konstan dan tidak dapat diubah
 
 // define tidak dapat diakses dari dalam kelas dan bersifat nilai global.

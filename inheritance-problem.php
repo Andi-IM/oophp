@@ -1,5 +1,5 @@
 <?php 
-
+#6 Inheritance (Pewarisan)
 class Produk {
     public $judul, 
            $creator,
